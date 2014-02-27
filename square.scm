@@ -1,3 +1,5 @@
+(These are just quick examples that I am learning while going through SICP and the Little Schemer)
+
 (define (square x)
   (* x x))
   
