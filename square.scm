@@ -1,4 +1,4 @@
-(These are just quick examples that I am learning while going through SICP and the Little Schemer)
+These are just quick examples that I am learning while going through SICP and the Little Schemer
 
 (define (square x)
   (* x x))
@@ -8,3 +8,9 @@
   
 (define (x a)
   (sum (+ a 1) (* a 2)))
+  
+  
+  
+RUN:
+-> (x 5)
+--> 136
