@@ -1,8 +1,8 @@
-Defining procedures as Black Box Abstractions
-Using Scheme (LISP dialect)
+;; Defining procedures as Black Box Abstractions
+;; Using Scheme (LISP dialect)
 
-The following code gets the job done but the only procedure that is important to the users of the program
-is "sqrt". The other procedures may only clutter their minds. 
+;; The following code gets the job done but the only procedure that is important to the users of the program
+;; is "sqrt". The other procedures may only clutter their minds. 
 
 (define (sqrt x)
   (sqrt-iter 1.0 x))
@@ -16,8 +16,8 @@ is "sqrt". The other procedures may only clutter their minds.
   (average guess (/ x guess)))
 
 
-The following code is an example of "lexical scoping" and will help break up large programs into smaller pieces.
-This will make the program easier to read (and maybe even run.)
+;; The following code is an example of "lexical scoping" and will help break up large programs into smaller pieces.
+;; This will make the program easier to read (and maybe even run.)
 
 
 (define (sqrt x)
