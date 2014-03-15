@@ -1,4 +1,5 @@
-;; Here is some fun and easy code involving lists.
+;; Here is some fun and easy code involving lists. As time goes by and I learn more about Lisp and functional
+;; programming, I would like these blocks of code to become a bit more abstract.
 
 (define ls (cons 1 2))
 ;; => (car ls)
