@@ -21,3 +21,11 @@
 => 9
 => (add2 x)
 => 11
+
+
+; More random and fun code
+
+(define (cons x y)
+    (lambda (m) (m x y)))
+(define (car z)
+    (z (lambda (p w) p)))
