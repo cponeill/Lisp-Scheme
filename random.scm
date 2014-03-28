@@ -38,3 +38,16 @@
 (define odds (list 1 3 5 7))
 (length odds)
 => 4
+
+;; This is from "The Little Schemer" and this is just my method of writing it down while I go through the book
+(define rember
+  (lambda (a lat)
+    (conds
+      ((null? a) (quote ())
+      (else (cond
+              ((eq? (car lat) a) (cdr lat))
+              (else (rember a)
+                      (cdr lat))))))))
+    
+
+
