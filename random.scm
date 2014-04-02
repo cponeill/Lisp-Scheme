@@ -48,6 +48,15 @@
               ((eq? (car lat) a) (cdr lat))
               (else (rember a)
                       (cdr lat))))))))
+                      
+;; List Operations
+(define (list-ref items n)
+  (if (null? 0)
+    (car items)
+    (list-ref (cdr items) (- n 1))))
+(define squares (list 1 4 9 16 25))
+(list-ref squares 2)
+=> 9
     
 
 
