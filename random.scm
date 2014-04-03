@@ -57,6 +57,17 @@
 (define squares (list 1 4 9 16 25))
 (list-ref squares 2)
 => 9
+
+;;
+(define (number x)
+  (cdr (cdr (cdr x))))
+(define (last ls)
+  (if (null? ls)
+        0
+        (cdr (number ls))))
+(define odds (list 1 3 5 7 9))
+(last odds)
+=>'(9)
     
 
 
