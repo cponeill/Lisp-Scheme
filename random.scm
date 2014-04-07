@@ -93,3 +93,12 @@
           (else (memq item (cdr x)))))
 (memq 'carrot '(pie cupcake cookie))
 => #f
+
+
+;;
+> (define (wage h)
+    (+ 12 h)
+    )
+> (wage 12)
+24
+> 
